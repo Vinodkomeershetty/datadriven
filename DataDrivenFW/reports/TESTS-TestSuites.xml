@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="venu" id="0" name="TestSuite" package="Test.Suite1" tests="4" time="103.063" timestamp="2012-08-26T07:12:54">
+      <properties>
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="test.reportsDir" value="D:\WS1\DataDrivenFW/reports" />
+
+          <property name="os.name" value="Windows XP" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_26\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_26\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_26\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_26\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_26\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_26\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_26\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_26\jre\classes" />
+
+          <property name="ws.home" value="D:\WS1\DataDrivenFW" />
+
+          <property name="env.COMPUTERNAME" value="VENU" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4" />
+
+          <property name="java.runtime.version" value="1.6.0_26-b03" />
+
+          <property name="env.HOMEPATH" value="\Documents and Settings\Venumadhav Aroli" />
+
+          <property name="test.classpath" value="D:\JarLib\SaxonLiaison.jar:D:\JarLib\apache-mime4j-0.6.jar:D:\JarLib\bsh-1.3.0.jar:D:\JarLib\cglib-nodep-2.1_3.jar:D:\JarLib\commons-codec-1.6.jar:D:\JarLib\commons-collections-3.2.1.jar:D:\JarLib\commons-exec-1.1.jar:D:\JarLib\commons-io-2.0.1.jar:D:\JarLib\commons-jxpath-1.3.jar:D:\JarLib\commons-lang-2.6.jar:D:\JarLib\commons-logging-1.1.1.jar:D:\JarLib\cssparser-0.9.5.jar:D:\JarLib\dom4j-1.6.1.jar:D:\JarLib\guava-12.0.jar:D:\JarLib\hamcrest-core-1.1.jar:D:\JarLib\hamcrest-library-1.1.jar:D:\JarLib\htmlunit-2.9.jar:D:\JarLib\htmlunit-core-js-2.9.jar:D:\JarLib\httpclient-4.1.3.jar:D:\JarLib\httpcore-4.1.3.jar:D:\JarLib\httpmime-4.1.3.jar:D:\JarLib\ini4j-0.5.2.jar:D:\JarLib\jcommander-1.13.jar:D:\JarLib\jna-3.4.0.jar:D:\JarLib\jna-platform-3.4.0.jar:D:\JarLib\json-20080701.jar:D:\JarLib\junit-dep-4.10.jar:D:\JarLib\log4j-1.2.14.jar:D:\JarLib\nekohtml-1.9.15.jar:D:\JarLib\netty-3.2.7.Final.jar:D:\JarLib\operadriver-0.14.jar:D:\JarLib\poi-3.8-20120326.jar:D:\JarLib\poi-ooxml-3.8-20120326.jar:D:\JarLib\poi-ooxml-schemas-3.8-20120326.jar:D:\JarLib\protobuf-java-2.4.1.jar:D:\JarLib\sac-1.3.jar:D:\JarLib\saxon-8.7.jar:D:\JarLib\selenium-java-2.25.0-srcs.jar:D:\JarLib\selenium-java-2.25.0.jar:D:\JarLib\serializer-2.7.1.jar:D:\JarLib\testng-6.0.1-nobsh-noguice.jar:D:\JarLib\webbit-0.4.8-SNAPSHOT.jar:D:\JarLib\xalan-2.7.1.jar:D:\JarLib\xercesImpl-2.9.1.jar:D:\JarLib\xml-apis-1.3.04.jar:D:\JarLib\xmlbeans-2.3.0.jar" />
+
+          <property name="user.name" value="Venumadhav Aroli" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_26\jre\bin" />
+
+          <property name="ant.project.default-target" value="usage" />
+
+          <property name="ant.project.name" value="Junit_Ant" />
+
+          <property name="java.version" value="1.6.0_26" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 13 Stepping 8, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.TEMP" value="C:\DOCUME~1\VENUMA~1\LOCALS~1\Temp" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_26\jre\lib\endorsed" />
+
+          <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.6.0_26\bin\java.exe" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_26\jre" />
+
+          <property name="env.APPDATA" value="C:\Documents and Settings\Venumadhav Aroli\Application Data" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="D:\WS1\DataDrivenFW\build.xml" />
+
+          <property name="os.version" value="5.1" />
+
+          <property name="env._USE_CLASSPATH" value="yes" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="ant.file.Junit_Ant" value="D:\WS1\DataDrivenFW\build.xml" />
+
+          <property name="java.vm.version" value="20.1-b02" />
+
+          <property name="env.USERPROFILE" value="C:\Documents and Settings\Venumadhav Aroli" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\lib" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.6.0_26" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\DOCUME~1\VENUMA~1\LOCALS~1\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.home" value="C:\Documents and Settings\Venumadhav Aroli" />
+
+          <property name="test.dest" value="D:\WS1\DataDrivenFW/build" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="env.CLASSPATH" value="D:\workspace\javaTools\NetworkUtil;" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="1" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_26\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI Control Panel;C:\Program Files\Java\jdk1.6.0_26\bin;D:\selenium2\IEDriverServer_Win32_2.25.0;D:\selenium2\chromedriver_win_22_0_1203_0b;C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\bin;xDefaultS-1-5-21-1659004503-1284227242-839522115 -‰;." />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.file.type.Junit_Ant" value="file" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Test.Suite1.TestSuite filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\WS1\DataDrivenFW\reports\TEST-Test.Suite1.TestSuite.xml crashfile=D:\WS1\DataDrivenFW\junitvmwatcher2618654024839591130.properties propsfile=D:\WS1\DataDrivenFW\junit6979301790729845956.properties" />
+
+          <property name="java.class.path" value="D:\WS1\DataDrivenFW\build;D:\JarLib\SaxonLiaison.jar;D:\JarLib\apache-mime4j-0.6.jar;D:\JarLib\bsh-1.3.0.jar;D:\JarLib\cglib-nodep-2.1_3.jar;D:\JarLib\commons-codec-1.6.jar;D:\JarLib\commons-collections-3.2.1.jar;D:\JarLib\commons-exec-1.1.jar;D:\JarLib\commons-io-2.0.1.jar;D:\JarLib\commons-jxpath-1.3.jar;D:\JarLib\commons-lang-2.6.jar;D:\JarLib\commons-logging-1.1.1.jar;D:\JarLib\cssparser-0.9.5.jar;D:\JarLib\dom4j-1.6.1.jar;D:\JarLib\guava-12.0.jar;D:\JarLib\hamcrest-core-1.1.jar;D:\JarLib\hamcrest-library-1.1.jar;D:\JarLib\htmlunit-2.9.jar;D:\JarLib\htmlunit-core-js-2.9.jar;D:\JarLib\httpclient-4.1.3.jar;D:\JarLib\httpcore-4.1.3.jar;D:\JarLib\httpmime-4.1.3.jar;D:\JarLib\ini4j-0.5.2.jar;D:\JarLib\jcommander-1.13.jar;D:\JarLib\jna-3.4.0.jar;D:\JarLib\jna-platform-3.4.0.jar;D:\JarLib\json-20080701.jar;D:\JarLib\junit-dep-4.10.jar;D:\JarLib\log4j-1.2.14.jar;D:\JarLib\nekohtml-1.9.15.jar;D:\JarLib\netty-3.2.7.Final.jar;D:\JarLib\operadriver-0.14.jar;D:\JarLib\poi-3.8-20120326.jar;D:\JarLib\poi-ooxml-3.8-20120326.jar;D:\JarLib\poi-ooxml-schemas-3.8-20120326.jar;D:\JarLib\protobuf-java-2.4.1.jar;D:\JarLib\sac-1.3.jar;D:\JarLib\saxon-8.7.jar;D:\JarLib\selenium-java-2.25.0-srcs.jar;D:\JarLib\selenium-java-2.25.0.jar;D:\JarLib\serializer-2.7.1.jar;D:\JarLib\testng-6.0.1-nobsh-noguice.jar;D:\JarLib\webbit-0.4.8-SNAPSHOT.jar;D:\JarLib\xalan-2.7.1.jar;D:\JarLib\xercesImpl-2.9.1.jar;D:\JarLib\xml-apis-1.3.04.jar;D:\JarLib\xmlbeans-2.3.0.jar;C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\lib\ant-launcher.jar;C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\lib\ant.jar;C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\lib\ant-junit.jar;C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+
+          <property name="ws.jars" value="D:/JarLib" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.LOGONSERVER" value="\\VENU" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 3" />
+
+          <property name="env.ANT_HOME" value="C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="java.io.tmpdir" value="C:\DOCUME~1\VENUMA~1\LOCALS~1\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="0d08" />
+
+          <property name="test.src" value="D:\WS1\DataDrivenFW/src" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="env.ANT_CMD_LINE_ARGS" value=" compile run" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="env.=D:" value="D:\WS1\DataDrivenFW" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_26\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="D:\WS1\DataDrivenFW" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH" />
+
+          <property name="env.Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI Control Panel;C:\Program Files\Java\jdk1.6.0_26\bin;D:\selenium2\IEDriverServer_Win32_2.25.0;D:\selenium2\chromedriver_win_22_0_1203_0b;C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\bin;xDefaultS-1-5-21-1659004503-1284227242-839522115 -‰" />
+
+          <property name="basedir" value="D:\WS1\DataDrivenFW" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\Documents and Settings\Venumadhav Aroli\My Documents\Downloads\apache-ant-1.8.4\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Venumadhav Aroli" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="VENU" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="env.=C:" value="C:\Documents and Settings\Venumadhav Aroli" />
+
+          <property name="ant.project.invoked-targets" value="compile,run" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="Test.Suite1.RegistrationTest" name="RegistrationTest[0]" time="27.515" />
+
+      <testcase classname="Test.Suite1.RegistrationTest" name="RegistrationTest[1]" time="18.265" />
+
+      <testcase classname="Test.Suite1.LoginTest" name="TestLogin[0]" time="19.453" />
+
+      <testcase classname="Test.Suite1.LoginTest" name="TestLogin[1]" time="3.875">
+          <failure message="Element not found Xpath_login_link" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Element not found Xpath_login_link
+	at Test.AbstractTest.getWebelement(AbstractTest.java:53)
+	at Utils.TestUtils.isLogin(TestUtils.java:23)
+	at Test.Suite1.LoginTest.TestLogin(LoginTest.java:61)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+
+  </testsuite>
+</testsuites>

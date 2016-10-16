@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project [
+]>
+
+<project name="Junit_Ant" default="usage" basedir=".">  
+
+<!-- ========== Initialize Properties =================================== -->
+    <property environment="env"/>
+    
+    <property name="ws.home" value="${basedir}"/>
+	<property name="ws.jars" value="D:/JarLib"/>
+    <property name="test.dest" value="${ws.home}/build"/>
+    <property name="test.src" value="${ws.home}/src"/>
+	<property name="test.reportsDir" value="${ws.home}/reports"/>
+
+	
+    <!-- class path, used for Java -->
+	<path id="testcase.path">
+	    <pathelement location="${test.dest}"/>
+	    <fileset dir="${ws.jars}">
+	      <include name="*.jar"/>
+	    </fileset>
+    </path>
+
+	
+    <!-- test.classpath variable, ":" separated path used for Javac -->	
+    <target name="setClassPath" unless="test.classpath">
+        <path id="classpath_jars">
+            <fileset dir="${ws.jars}" includes="*.jar"/>
+        </path>
+        <pathconvert pathsep=":" 
+            property="test.classpath" 
+            refid="classpath_jars"/>
+    </target>
+
+    <!-- Init -->	
+    <target name="init" depends="setClassPath">
+        <tstamp>
+            <format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+        </tstamp>
+        <condition property="ANT" 
+            value="${env.ANT_HOME}/bin/ant.bat" 
+            else="${env.ANT_HOME}/bin/ant">
+                    <os family="windows" />
+        </condition>
+        
+    </target>
+  
+    <!-- clean -->
+    <target name="clean">
+        <echo>
+            ant inside clean
+        </echo>
+    	<delete dir="${test.dest}"/>
+    </target>
+
+    <!-- compile -->
+    <target name="compile" depends="setClassPath, clean" > 
+		<delete includeemptydirs="true" quiet="true">
+            <fileset dir="${test.dest}" includes="**/*"/>
+		</delete>
+        <echo message="making directory..."/>
+		<mkdir dir="${test.dest}"/>
+        <echo message="classpath------: ${test.classpath}"/>
+        <echo message="compiling..."/>
+        <javac 
+            debug="true" 
+            destdir="${test.dest}" 
+            srcdir="${test.src}" 
+            target="1.5" 
+            classpath="${test.classpath}"
+        >
+        </javac>
+      </target>
+
+     <target name="usage">
+        <echo>
+            ant run will execute the test
+        </echo>
+    </target>
+
+	<!-- run -->
+	<target name="run" >  
+		<delete includeemptydirs="true" quiet="true">
+            <fileset dir="${test.reportsDir}" includes="**/*"/>
+		</delete>
+			      
+		<junit fork="yes" haltonfailure="no" printsummary="yes">
+		    <classpath refid="testcase.path" />  
+		    <batchtest  todir="${test.reportsDir}" fork="true">  
+			    <fileset dir="${test.dest}">  
+			      <!-- <include name="AnnotationsExp.class" /> -->
+				  <!-- <include name="ErrorCollectorExp.class" />-->
+				  <!-- <include name="ParameterizationExp.class" />-->
+				  <include name="Test/Suite1/TestSuite.class" />
+			    </fileset>  
+		    </batchtest>
+    		<formatter type="xml" />  
+		</junit>  
+	    <junitreport todir="${test.reportsDir}">    
+	        <fileset dir="${test.reportsDir}">  
+	            <include name="TEST-*.xml" />  
+	        </fileset>  
+	        <report todir="${test.reportsDir}" />  
+	    </junitreport>  
+	</target>
+
+	
+</project>
